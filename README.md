@@ -94,6 +94,7 @@ https://ardupilot.org/rover/docs/common-gps-for-yaw.html
 https://ardupilot.org/rover/docs/common-object-avoidance-landing-page.html  
 
 ![Toasty](/images/Toasty6.jpg) 
+![Toasty](/images/toasty_ardupilot.png) 
 
 ## Tips
 
