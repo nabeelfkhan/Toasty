@@ -17,7 +17,7 @@ Pre-fabricated robotics platforms that can carry heavy loads over long distances
 For brushless motor control, I referenced the excellent work of lucysrausch in hacking a hoverboard as a cost effective brushless motor solution.
 Hoverboards are quite powerful. Most are capable of supporting 200 lbs (90kg) with a top speed of 25 mph (40km/h) and up to 10 miles (16 km) of range with some reprogramming.  
 https://github.com/lucysrausch/hoverboard-firmware-hack  
-Her repo also contains some examples of projects others have created using hacked hoverboards  
+Her repo also contains some examples of projects others have created using hacked hoverboards.  
 
 EFeru further modified this code base to include FOC control, offering smoother control and higher speeds.  
 https://github.com/EFeru/hoverboard-firmware-hack-FOC  
