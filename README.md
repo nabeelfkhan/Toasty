@@ -104,7 +104,8 @@ https://ardupilot.org/rover/docs/common-object-avoidance-landing-page.html
 
 ## To do:
 Add obscacle avoidance via Lidar, ToF camera  
-Include ROS node for indoor navigation  
+Include ROS node for indoor navigation.  
+Migrate to Jetson Nano.  
 
 ## Links:
 https://github.com/pixhawk/Hardware/blob/master/FMUv5/Pixhawk4-Pinouts.pdf  
