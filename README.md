@@ -14,7 +14,7 @@ Toasty is an affordable DIY autonomous robotics research platform.
 
 My long term goal is for Toasty to serve as a long range delivery robot with obstacle avoidance. In the near term, I'm experimenting wtith PointPerfect SSR GNSS corrections from u-blox to achieve cm level accuracy.
 
-Pre-fabricated robotics platforms that can carry heavy loads over long distances are quite expensive. Cost effective Motors, Motor Controllers, and Frames are tough to find. Toasty is an budget, eco-friendly alternative, leveraging recycled materials and the following projects:
+Pre-fabricated robotics platforms that can carry heavy loads over long distances are quite expensive. Cost effective Motors, Motor Controllers, and Frames are tough to find. Toasty is a budget and eco-friendly alternative, leveraging recycled materials and the following projects:
 
 For brushless motor control, I referenced the excellent work of lucysrausch in hacking a hoverboard as a cost effective brushless motor solution.
 Hoverboards are quite powerful. Most are capable of supporting 200 lbs (90kg) with a top speed of 25 mph (40km/h) and up to 10 miles (16 km) of range with some reprogramming.  
