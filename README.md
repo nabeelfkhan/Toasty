@@ -62,33 +62,33 @@ Aluminum extrusions just aren't as fun.
 
 Here is an outline of the steps I followed using a Pixhawk 4 mini, Ardupilot,  and a hacked hoverboard. Depending on your choice of controller, you may need to make some modifications.
 
-Step 1: Disassemble your hoverboard and Follow instructions on Feru's repo to flash the MCU. Make sure you pick the appropriate input. If you are using Ardupilot like me, select PWM input  
+**Step 1**: Disassemble your hoverboard and Follow instructions on Feru's repo to flash the MCU. Make sure you pick the appropriate input. If you are using Ardupilot like me, select PWM input  
 https://github.com/EFeru/hoverboard-firmware-hack-FOC  
 
-Step 2: I removed the motor mounts and bolted them directly into the frame of my toaster. This required a couple 3D printed spacers. You may need to get a little creative here, as hoverboard mounts have different geometries and some may require more effort to combine with the toaster frame.
+**Step 2**: I removed the motor mounts and bolted them directly into the frame of my toaster. This required a couple 3D printed spacers. You may need to get a little creative here, as hoverboard mounts have different geometries and some may require more effort to combine with the toaster frame.
 ![Toasty](/images/Toasty2.jpg) 
 
-Step 3: I 3D printed a few enclosures and mounts for the electronics. See /3D_Prints. I also crimped some custom dupont connector cables to interface between the motor controller and hall sensor cables.
+**Step 3**: I 3D printed a few enclosures and mounts for the electronics. See /3D_Prints. I also crimped some custom dupont connector cables to interface between the motor controller and hall sensor cables.
 ![Toasty](/images/Toasty3.jpg) 
 
-Step 4: Test with an RC receiver - Channels 0,1 can be connected directly to the hoverboard motor controller using Pin x for speed and pin x for steering. Place toasty on an elevated surface so the wheels can move freely and ensure throttle and steering are functioning as expected.
+**Step 4**: Test with an RC receiver - Channels 0,1 can be connected directly to the hoverboard motor controller using Pin x for speed and pin x for steering. Place toasty on an elevated surface so the wheels can move freely and ensure throttle and steering are functioning as expected.
 ![Toasty](/images/Toasty8.jpg) 
 
-Step 5: Follow the Ardupoilot Rover steps outlined here: https://ardupilot.org/rover/docs/gettit.html  
+**Step 5**: Follow the Ardupoilot Rover steps outlined here: https://ardupilot.org/rover/docs/gettit.html  
 
-Step 6: Connect the Pixhawk to the motor controller as shown on the block diagram. I've uploaded a 3D printed mount for the pixhawk in the repo. For convenience, I used velcro to secure the device to the top of the oven compartment.
+**Step 6**: Connect the Pixhawk to the motor controller as shown on the block diagram. I've uploaded a 3D printed mount for the pixhawk in the repo. For convenience, I used velcro to secure the device to the top of the oven compartment.
 ![Toasty](/images/Toasty5.jpg) 
 ![Toasty](/images/Toasty9.jpg) 
 
-Step 7: Place Toasty on an elevated surface again to safely perform some motor tests. At this stage you should have already performed the RC controller calibration and set the rover to mode x. You're ready to go on your first mission!
+**Step 7**: Place Toasty on an elevated surface again to safely perform some motor tests. At this stage you should have already performed the RC controller calibration and set the rover to mode x. You're ready to go on your first mission!
 ![Toasty](/images/toasty4.jpg) 
 
-Step 8: Test manual control and follow tuning steps as outlined in Randy's videos here:
+**Step 8**: Test manual control and follow tuning steps as outlined in Randy's videos here:
 
 https://www.youtube.com/watch?v=mV9Dxp1PX-8  
 https://www.youtube.com/watch?v=9zOlvTsHY6k  
 
-Step 9: Configure ardupilot to prioritize the appropriate external GNSS. Set up and calibrate magnetometers, and object avoidance sensors. Details are outlined in the ardupilot rover documentation: 
+**Step 9**: Configure ardupilot to prioritize the appropriate external GNSS. Set up and calibrate magnetometers, and object avoidance sensors. Details are outlined in the ardupilot rover documentation: 
 
 https://ardupilot.org/rover/docs/common-gps-for-yaw.html  
 https://ardupilot.org/rover/docs/common-object-avoidance-landing-page.html  
