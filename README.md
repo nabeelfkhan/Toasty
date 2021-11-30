@@ -10,7 +10,7 @@ Meet Toasty: The Brave Little Toaster Oven
 
 Toasty is an affordable DIY autonomous robotics research platform.  
 
-#Disclaimer: The motors used in this project are dangerously powerful. Follow this guide at your own risk. Follow all local laws and regulations for autonomous and remote control vehicles. Test and make configuration changes in an open area away from obstacles, and always maintain line of sight.
+**Disclaimer: The motors used in this project are dangerously powerful. Follow this guide at your own risk. Follow all local laws and regulations for autonomous and remote control vehicles. Test and make configuration changes in an open area away from obstacles, and always maintain line of sight.**
 
 My long term goal is for Toasty to serve as a long range delivery robot with obstacle avoidance. In the near term, I'm experimenting wtith PointPerfect SSR GNSS corrections from u-blox to achieve cm level accuracy.
 
