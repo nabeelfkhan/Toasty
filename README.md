@@ -15,7 +15,7 @@ My long term goal is for Toasty to serve as a long range delivery robot with obs
 Pre-fabricated robotics platforms that can carry heavy loads over long distances are quite expensive. Cost effective Motors, Motor Controllers, and Frames are tough to find. Toasty is an budget, eco-friendly alternative, leveraging recycled materials and the following projects:
 
 For brushless motor control, I referenced the excellent work of lucysrausch in hacking a hoverboard as a cost effective brushless motor solution.
-Hoverboards are quite powerful. Most are capable of supporting 200 lbs (90kg) with a top speed of 25 mph (40km/h) and up to 10 miles (16 km) of range with some reprogramming.
+Hoverboards are quite powerful. Most are capable of supporting 200 lbs (90kg) with a top speed of 25 mph (40km/h) and up to 10 miles (16 km) of range with some reprogramming.  
 https://github.com/lucysrausch/hoverboard-firmware-hack  
 Her repo also contains some examples of projects others have created using hacked hoverboards  
 
@@ -62,7 +62,7 @@ Aluminum extrusions just aren't as fun.
 
 Here is an outline of the steps I followed using a Pixhawk 4 mini, Ardupilot,  and a hacked hoverboard. Depending on your choice of controller, you may need to make some modifications.
 
-Step 1: Disassemble your hoverboard and Follow instructions on Feru's repo to flash the MCU. Make sure you pick the appropriate input. If you are using Ardupilot like me, select PWM input
+Step 1: Disassemble your hoverboard and Follow instructions on Feru's repo to flash the MCU. Make sure you pick the appropriate input. If you are using Ardupilot like me, select PWM input  
 https://github.com/EFeru/hoverboard-firmware-hack-FOC  
 
 Step 2: I removed the motor mounts and bolted them directly into the frame of my toaster. This required a couple 3D printed spacers. You may need to get a little creative here, as hoverboard mounts have different geometries and some may require more effort to combine with the toaster frame.
