@@ -65,10 +65,10 @@ Here is an outline of the steps I followed using a Pixhawk 4 mini, Ardupilot,  a
 **Step 1**: Disassemble your hoverboard and Follow instructions on Feru's repo to flash the MCU. Make sure you pick the appropriate input. If you are using Ardupilot like me, select PWM input  
 https://github.com/EFeru/hoverboard-firmware-hack-FOC  
 
-**Step 2**: I removed the motor mounts and bolted them directly into the frame of my toaster. This required a couple 3D printed spacers. You may need to get a little creative here, as hoverboard mounts have different geometries and some may require more effort to combine with the toaster frame.
+**Step 2**: Mount the motors to the toaster frame. I used the mounts that came with my hoverboard, which required a couple 3D printed spacers. You may need to get a little creative here, as hoverboard mounts have different geometries and some may require more effort to combine with the toaster frame.
 ![Toasty](/images/Toasty2.jpg) 
 
-**Step 3**: I 3D printed a few enclosures and mounts for the electronics. See /3D_Prints. I also crimped some custom dupont connector cables to interface between the motor controller and hall sensor cables.
+**Step 3**: Wire up the motor controller as shown in the block diagram. I 3D printed a few enclosures and mounts for the electronics. See /3D_Prints. I also crimped some custom dupont connector cables to interface between the motor controller and hall sensor cables.
 ![Toasty](/images/Toasty3.jpg) 
 
 **Step 4**: Test with an RC receiver - Channels 0,1 can be connected directly to the hoverboard motor controller using Pin x for speed and pin x for steering. Place toasty on an elevated surface so the wheels can move freely and ensure throttle and steering are functioning as expected.
